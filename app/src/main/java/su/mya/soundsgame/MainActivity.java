@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+		// !!!! ЗАГРУЗИТЬ РЕСУРСЫ через SWAGGER/POSTMAN и браузер в ассеты
+		
 		digits.put(R.id.d0, new Digit(R.drawable.digit_0, "sound_0.ogg"));
 		digits.put(R.id.d1, new Digit(R.drawable.digit_1, "sound_1.ogg"));
 		digits.put(R.id.d2, new Digit(R.drawable.digit_2, "sound_2.ogg"));
